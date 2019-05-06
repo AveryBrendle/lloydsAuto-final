@@ -1,0 +1,23 @@
+<h1 class="display-4">Car Register</h1>
+<form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
+  <input type="hidden" name="id" #id="ngModel" [(ngModel)]="service.formData.id">
+  <div class="form-group">
+    <input name="make" #make="ngModel" [(ngModel)]="service.formData.make" nameclass="form-control" placeholder="Make" required>
+    <div *ngIf="make.invalid && make.touched" class="validation-error">This field is required</div>
+  </div>
+  <div class="form-group">
+    <input name="model" #model="ngModel" [(ngModel)]="service.formData.model" nameclass="form-control" placeholder="Model">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <input name="price" #price="ngModel" [(ngModel)]="service.formData.price" nameclass="form-control" placeholder="Price">
+    </div>
+    <div class="form-group col-md-6">
+      <input name="miles" #miles="ngModel" [(ngModel)]="service.formData.miles" nameclass="form-control" placeholder="Miles">
+    </div>
+  </div>
+<div class="form-group">
+  <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block btn-info">SUBMIT</button>
+</div>
+
+</form>

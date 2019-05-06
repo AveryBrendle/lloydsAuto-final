@@ -1,0 +1,94 @@
+#card {
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.2);
+    color: #000000;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    float: unset;
+    background-color: white;
+    display:inline-block;
+    height: 250px;
+    margin:8px;
+    }
+  
+  #title-card {
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.2);
+    color: #000000;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    float: unset;
+    background-color: white;
+    padding-bottom: 3px;
+  }
+  #wrapper {
+    width: stretch;
+    align-items: center;
+    text-align: center;
+  }
+  #wrapper:hover {
+    width: stretch;
+    align-items: center;
+    text-align: center;
+    width:100%
+  }
+  
+  #nav-card {
+    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.2);
+    color: #000000;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    float: unset;
+    background-color: white;
+    padding-bottom: 3px;
+  }
+  
+  #main {
+    width: stretch;
+    height: 150px;
+    /*background-color: #6d7793;*/
+    font-family: 'Palatino Linotype';
+    text-align: center;
+    font-size: 100px;
+    /*padding-bottom:0px;*/
+  }
+  #nav {
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 0.67em;
+    margin-top: 10px;
+  }
+  
+  #nav-content {
+    height: 100px;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Book Antiqua';
+  }
+  #pic{
+    height:100%;
+    width:40%;
+    float:left;
+  }
+  #description{
+    font-family:Arial;
+    display:inline-block;
+    float: right;
+    padding-left: 2px;
+  }
+  card:hover {
+    height:50%;
+    transition: 1s;
+  }
+  #image {
+    background-image: url('http://media.bizj.us/view/img/374291/charlotte-skyline-2-thinkstock*750xx2129-1203-0-57.jpg');
+    /*background-size: 100vw 100vh;
+    background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
